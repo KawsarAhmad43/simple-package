@@ -18,11 +18,5 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/KawsarAhmad43/simple-package"
-        }
-    ]
+    "prefer-stable": true
 }
