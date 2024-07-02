@@ -1,0 +1,28 @@
+{
+    "name": "kawsarahmad43/simple-package",
+    "description": "A simple Laravel package to greet users.",
+    "type": "library",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "KawsarAhmad43\\SimplePackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KawsarAhmad43\\SimplePackage\\SimplePackageServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/KawsarAhmad43/simple-package"
+        }
+    ]
+}
